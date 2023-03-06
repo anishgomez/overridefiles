@@ -36,7 +36,7 @@ INTERNAL_SYSTEM_IPS = (get_internal_network(),)
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "sentrydev",
+        "NAME": "sentrydb",
         "USER": "postgres",
         "PASSWORD": "Anish123",
         "HOST": "sentrydev.ckfffm35cesh.eu-central-1.rds.amazonaws.com",
